@@ -12,7 +12,7 @@ class Exemplo
 
     public function salvar(){
         $array = array('nome'=>'Teste');
-        $this->db->exec('comando para gravar na base'.$array);
+        $this->db->exec('comando para gravar na base '.$array);
     }
 }
 
