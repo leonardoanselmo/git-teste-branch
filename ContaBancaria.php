@@ -37,7 +37,7 @@ trait Mensagens
 {
     public function digaOla()
     {
-        echo "Ola!!!";
+        echo "<br/>"."Ola!!!";
     }
 }
 
